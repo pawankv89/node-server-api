@@ -42,7 +42,12 @@ $ node server.js
 1) Run Project on browser 
 
 ```xml
-  http://127.0.0.1:8081/listUsers
+  http://127.0.0.1:8081/users
+  http://127.0.0.1:8081/addUser
+  http://127.0.0.1:8081/add
+  http://127.0.0.1:8081/2
+  http://127.0.0.1:8081/deleteUser
+  http://127.0.0.1:8081/deleteUser/3
   ```
 
 ```xml
@@ -60,6 +65,8 @@ ng serve
 
 
 ###  HTTP methods
+
+```xml
 Following four HTTP methods are commonly used in REST based architecture.
 
 GET − This is used to provide a read only access to a resource.
@@ -69,6 +76,7 @@ PUT − This is used to create a new resource.
 DELETE − This is used to remove a resource.
 
 POST − This is used to update a existing resource or create a new resource.
+```
 
 ## Git Commands
 
@@ -79,7 +87,7 @@ Angular9-Import-project-module % git config --global user.name "Example_Name"
 Angular9-Import-project-module % git config --global user.email "Example_EMAIL"
 Angular9-Import-project-module % git config --global user.password "Example_PASSWORD"
 
-Public Github Source % git clone https://github.com/pawankv89/Angular9-PrimeNG-Button.git
+Public Github Source % git clone https://github.com/pawankv89/node-server-api.git
 Angular9-Import-project-module % git status
 Angular9-Import-project-module % git add *
 Angular9-Import-project-module % git commit -m "Initial commit"
@@ -89,6 +97,7 @@ Angular9-Import-project-module %
 ```
 
 ## Links
+```xml
 https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm
 https://stackabuse.com/building-a-rest-api-with-node-and-express/
 https://auth0.com/blog/node-js-and-express-tutorial-building-and-securing-restful-apis/
@@ -102,11 +111,12 @@ https://www.toptal.com/nodejs/secure-rest-api-in-nodejs
 https://stackabuse.com/using-mocks-for-testing-in-javascript-with-jes/
 
 https://stackabuse.com/how-to-start-a-node-server-examples-with-the-most-popular-frameworks/
-
+```
 ##  Demo API Links
+```xml
 https://jsonplaceholder.typicode.com/albums
 https://via.placeholder.com/150/a393af
-
+```
 
 ## License
 
