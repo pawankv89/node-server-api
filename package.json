@@ -1,0 +1,26 @@
+{
+  "name": "node-server-api",
+  "version": "1.0.0",
+  "description": "node-server-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://oauth2: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@github.com/pawankv89/node-server-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawankv89/node-server-api/issues"
+  },
+  "homepage": "https://github.com/pawankv89/node-server-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
